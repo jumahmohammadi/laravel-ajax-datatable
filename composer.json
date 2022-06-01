@@ -16,9 +16,7 @@
         "intervention/image": "^2.7",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "*",
-        "morilog/jalali": "3.*",
-        "spatie/laravel-medialibrary": "^9.12"
+        "laravel/ui": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
