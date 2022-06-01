@@ -97,7 +97,7 @@ password: **password**
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-its a ready laravel project has nice design and high performance, we can use it to start start working on new laravel project
+its a ready laravel project has nice admin panel design and high performance,If you are new in laravel, or want to create an Ajax datatable without using any package, this admin panel is a good sample for you. **I recommend it.**
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
