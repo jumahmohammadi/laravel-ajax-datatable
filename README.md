@@ -78,7 +78,10 @@ this project is created with Laravel 8 and Ajax
    ```sh
    composer update
    ```
-3. migrate the database
+3. Create database, named it "gitHub"
+   
+   
+4. migrate the database
    ```sh
     php artisan migrate:refresh --seed
    ```
