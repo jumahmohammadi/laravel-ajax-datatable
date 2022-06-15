@@ -5,7 +5,7 @@
         <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute start-0 top-0 d-none d-xl-none"
             aria-hidden="true" id="iconSidenav"></i>
         <a class="navbar-brand m-0" href="{{ asset('admin/dashboard') }}">
-            <img src="{{ asset('public/img/logo-ct.png') }}" class="navbar-brand-img h-100" alt="main_logo">
+            <img src="{{ asset('img/logo-ct.png') }}" class="navbar-brand-img h-100" alt="main_logo">
             <span class="me-1">{{ __('label.dashboard') }}</span>
         </a>
     </div>

@@ -18,7 +18,7 @@
                                     <?= Auth::user()->name ?>
                                   
 								</span>
-                                <img src="{{asset('public/uploads/profiles/default.png')}}" alt=""
+                                <img src="{{asset('uploads/profiles/default.png')}}" alt=""
                                     class="rounded-circle">
                             </button>
                             <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">

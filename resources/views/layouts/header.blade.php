@@ -8,15 +8,15 @@
         <title>
             <?= trans('label.system_title');?> 
         </title>
-        <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('public/icons/logo.png') }}">
-        <link rel="icon" type="image/png" href="{{ asset('public/icons/logo.png')  }}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('icons/logo.png') }}">
+        <link rel="icon" type="image/png" href="{{ asset('icons/logo.png')  }}">
         <!-- Nucleo Icons -->
-        <link href="{{ asset('public/css/nucleo-icons.css') }}" rel="stylesheet" />
-        <link href="{{ asset('public/css/nucleo-svg.css') }}" rel="stylesheet" />
+        <link href="{{ asset('css/nucleo-icons.css') }}" rel="stylesheet" />
+        <link href="{{ asset('css/nucleo-svg.css') }}" rel="stylesheet" />
         <!-- CSS Files -->
-        <link id="pagestyle" href="{{ asset('public/css/soft-ui-dashboard.css?v=1.0.3') }}" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="{{ asset('public/css/select2.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('public/css/custome.css')}}">
+        <link id="pagestyle" href="{{ asset('css/soft-ui-dashboard.css?v=1.0.3') }}" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/select2.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/custome.css')}}">
         @yield("internal_css")
     </head>
 

@@ -57,6 +57,11 @@ return [
     'search'=>"Search",
     'page_not_found'=>"Page not Found",
     'back_home'=>"Back to Home",
+    'register_here'=>"Register Here",
+    'register'=>"Register",
+    'not_have_account'=>"If you have not account",
+    'have_account'=>"If you have account",
+    'login_here'=>"Login Here",
 
 
 

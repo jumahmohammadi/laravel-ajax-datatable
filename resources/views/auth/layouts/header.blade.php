@@ -9,16 +9,10 @@
         <title>
             <?= trans('auth.login_title')?>
         </title>
-        <link rel="icon" type="image/x-icon" href="{{asset('public/icons/logo.png')}}">
-        <!-- Nucleo Icons -->
-        <link href="{{ asset('public/css/nucleo-icons.css') }}" rel="stylesheet" />
-        <link href="{{ asset('public/css/nucleo-svg.css') }}" rel="stylesheet" />
-        <!-- Font Awesome Icons -->
-        <script src="{{ asset('public/js/kit.fontawesome.js') }}" crossorigin="anonymous"></script>
-        <link href="{{ asset('public/css/nucleo-svg.css') }}" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="{{asset('icons/logo.png')}}">
         <!-- CSS Files -->
-        <link id="pagestyle" href="{{ asset('public/css/soft-ui-dashboard.css?v=1.0.3') }}" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="{{ asset('public/css/custome.css')}}">
+        <link id="pagestyle" href="{{ asset('css/soft-ui-dashboard.css?v=1.0.3') }}" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/custome.css')}}">
         @yield(" internal_css")
     </head>
 

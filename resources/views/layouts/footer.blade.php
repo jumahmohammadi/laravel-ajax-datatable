@@ -10,16 +10,16 @@
 </div>
 
 <!--   Core JS Files   -->
-<script src="{{ asset('public/js/core/popper.min.js') }}"></script>
-<script src="{{ asset('public/js/core/bootstrap.min.js') }}"></script>
-<script src="{{ asset('public/js/plugins/perfect-scrollbar.min.js') }}"></script>
-<script src="{{ asset('public/js/plugins/smooth-scrollbar.min.js') }}"></script>
-<script src="{{ asset('public/js/autonumeric.min.4.1.4.js')}}"></script>
-<script src="{{ asset('public/js/app.js')}}"></script>
+<script src="{{ asset('js/core/popper.min.js') }}"></script>
+<script src="{{ asset('js/core/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/plugins/perfect-scrollbar.min.js') }}"></script>
+<script src="{{ asset('js/plugins/smooth-scrollbar.min.js') }}"></script>
+<script src="{{ asset('js/autonumeric.min.4.1.4.js')}}"></script>
+<script src="{{ asset('js/app.js')}}"></script>
 
 <!-- Github buttons -->
 <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="{{ asset('public/js/soft-ui-dashboard.js') }}"></script>
+<script src="{{ asset('js/soft-ui-dashboard.js') }}"></script>
 <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 
 <script>
