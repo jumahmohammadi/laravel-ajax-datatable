@@ -1,121 +1,64 @@
-# laravel-ajax-datatable
-<div id="top"></div>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-<!-- PROJECT LOGO -->
+## About Laravel
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#installation">Installation</a>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Learning Laravel
 
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Laravel Sponsors
 
-<a href="https://github.com/jumahmohammadi/laravel-ajax-datatable">
-  <img src="https://i.ibb.co/g9jJnng/capture.jpg">
-</a>  
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-**Laravel Ajax Datatable** is a nice laravel admin panel which includes authentication, CRUD and Ajax datatable. 
-the datatable is created with laravel & ajax so No need to install another package, yout can do search, sort, paginate and show records per page fastly.   
+### Premium Partners
 
-What parts have been worked on it?
-* Authentication and Custom Middleware
-* Laravel localization
-* Routing and Laravel validation 
-* Bootstrap 5
-* JavaScript Sweet Alert plugin for showing message
-* JavaScript Select2 plugin for select dropdown
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
+## Contributing
 
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Code of Conduct
 
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
+## Security Vulnerabilities
 
-### Built With
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-this project is created with Laravel 8 and Ajax 
+## License
 
-* [Laravel](https://laravel.com/)
-* [Ajax]()
-* [SweetAlert](https://sweetalert.js.org/)
-* [Select2](https://select2.org)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Installation
-
-
-1. Clone the project
-   ```sh
-   git clone https://github.com/jumahmohammadi/laravel-ajax-datatable
-   ```
-2. run composer update command 
-   ```sh
-   composer update
-   ```
-3. Create database, named it "gitHub"
-   
-   
-4. migrate the database
-   ```sh
-    php artisan migrate:refresh --seed
-   ```
-
-Use this credintial to login.
-
-
-Email: **admin@gmail.com** 
-
-password: **password**
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-its a ready laravel project has nice admin panel design and high performance,If you are new in laravel, or want to create an Ajax datatable without using any package, this admin panel is a good sample for you. **I recommend it.**
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Jumah Mohammadi - [@jumah-mohammadi](https://www.linkedin.com/in/jumah-mohammadi/) - jumahmk2020@gmail.com
-
-Project Link: [https://github.com/jumahmohammadi/laravel-ajax-datatable](https://github.com/jumahmohammadi/laravel-ajax-datatable)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
