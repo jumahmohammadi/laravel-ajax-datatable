@@ -78,15 +78,21 @@ this project is created with Laravel 8 and Ajax
    ```sh
    composer update
    ```
-3. Create database, named it "gitHub"
-   
+3. Create database and name it
+   ```sh
+      gitHub
+   ```sh
    
 4. migrate the database
    ```sh
     php artisan migrate:refresh --seed
    ```
-
-Use this credintial to login.
+5. run artisan command
+   ```sh
+    php artisan serve
+   ```
+   
+6. Use this credintial to login.
 
 
 Email: **admin@gmail.com** 
