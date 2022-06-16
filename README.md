@@ -81,7 +81,7 @@ this project is created with Laravel 8 and Ajax
 3. Create database and name it
    ```sh
       gitHub
-   ```sh
+   ```
    
 4. migrate the database
    ```sh
